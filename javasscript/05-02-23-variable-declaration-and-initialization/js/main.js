@@ -1,9 +1,15 @@
 //Keyword, reserved word
+
+// declaration , initializing
 var myName="Can";
 
-console.log(myName)
+var currentSeason="winter" //string type
+
+var currentYear=2023; //number type
+
+currentYear= "Can"; //loosely typed,
 
 
-var currentSeason="winter"
 
-console.log(currentSeason)
+
+console.log(myName, currentSeason);
