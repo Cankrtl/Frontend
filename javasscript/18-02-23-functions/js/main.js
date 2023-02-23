@@ -10,7 +10,7 @@ myFirstFunc(); // invoking, calling a function
 
 
 function sayHello(FirstName, lastName){
-      console.log("Merhaba " + FirstName + " " + lastName )
+    console.log("Merhaba " + FirstName + " " + lastName )
 }
 
 sayHello("Can", "Kartal");

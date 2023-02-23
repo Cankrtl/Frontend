@@ -4,14 +4,14 @@ let hasPet = false;  //BOOLEAN
 
 let season;
 
-let seaosns = ["summer ", "fall ", "winter ", "spirng "];
+let seaosns = ["summer ", "fall ", "winter ", "spring "];
 
-console.log(seaosns)
+console.log(seasons)
 
 // accessing array item 
-console.log(seaosns[0]);
+console.log(seasons[0]);
 
-console.log(seaosns[1]);
+console.log(seasons[1]);
 
 let teams = ["fb","gs","bjk","ts"];
 
