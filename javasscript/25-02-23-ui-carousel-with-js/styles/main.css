@@ -16,7 +16,8 @@
     width: 300%;
     height: 100%;
     display: flex;
-    
+    transition: all 1s linear;
+
 }
 
 .carousel .slide{
