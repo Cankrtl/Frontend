@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.container{
+    border: 2px solid blue;
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 12px;
+
+    grid-template-rows: 100px  100px  50px;
+}
+
+.box{
+    border: 2px solid red;
+}
+
+.box:nth-child(1){
+    grid-column-start: 3;
+    grid-column-end: 7 ;
+
+    grid-row-start: 2;
+    grid-row-end:-1 ;
+}
+
+header{
+    border: 2px solid red;
+
+    grid-column-start:7 ;
+    grid-column-end: 13;
+
+    
+    
+}
+
+
