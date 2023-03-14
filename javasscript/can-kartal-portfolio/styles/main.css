@@ -208,7 +208,7 @@ main .section-featured-works ul {
   cursor: pointer;
 }
 
-.carousel > nav button.active {
+.carousel > nav button.active:hover {
   background-color: black;
   color: white;
 }
