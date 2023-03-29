@@ -7,4 +7,4 @@ var hasPet = true; //boolean type
 
 var hasCar = false; //boolean type
 
-var myEptyValue =null; //null
+var myEmptyValue =null; //null
