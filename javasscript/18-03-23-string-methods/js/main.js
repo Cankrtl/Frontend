@@ -85,7 +85,7 @@ console.log( basketTotalStrInDollars );
 /* --- includes() --- */
 const superHero = "The Dark Knight";
 
-const hasDarkStr = superHero.includes("Dark");
+const hasDarkStr = superHero.includes("red");
 
 console.log(hasDarkStr);
 
