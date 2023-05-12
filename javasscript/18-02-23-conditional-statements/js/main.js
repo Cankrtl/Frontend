@@ -92,7 +92,16 @@ if(mySuperName){
     console.log("you are super " + mySuperName)
 }
     
+/* ternary o */
 
+const hasKey  = true;
+// const hasAccess = hasKey ? "girebilirsin" :"giremezsin"
+// let hasAccess;
+// if(hasKey){
+//     hasAccess = "girebilirsin"
+// }else{
+//     hasAccess = "giremezsin"
+// }
 
 
 

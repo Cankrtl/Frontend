@@ -31,4 +31,4 @@ try {
   toplama("Can", 5);
 } catch (err) {
   console.log(err.message);
-}
+}XMLDocument
