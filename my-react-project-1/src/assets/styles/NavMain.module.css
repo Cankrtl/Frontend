@@ -1,0 +1,28 @@
+.NavMain {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    padding: 8px;
+    position: absolute;
+    top: 40px;
+    right: 24px;
+}
+
+.NavMain li {
+    margin-bottom: 16px;
+}
+
+.BtnToggle {
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

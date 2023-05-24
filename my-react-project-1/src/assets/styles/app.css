@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+
+:root {
+
+    --clr-primary: rgb(255, 255, 0);
+    --clr-dark: #333;
+
+}
+
+
+
+
+a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+
+
+
+strong {
+
+    font-weight: bolder;
+
+}
+
+
+
+
+.logoMain {
+
+    font-size: 40px;
+
+}
+
+
+
+
+h1 {
+
+    margin: 24px 0;
+
+}
+
+
+
+
+
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+#root>header {
+
+    background-color: var(--clr-dark);
+
+    padding: 24px;
+
+    color: var(--clr-primary);
+
+}
+
+
+
+
+#root>main {
+
+    background-color: var(--clr-primary);
+
+    padding: 24px;
+
+    color: var(--clr-dark);
+
+    min-height: 480px;
+
+}
+
+
+
+
+#root>footer {
+
+    background-color: var(--clr-dark);
+
+    padding: 24px;
+
+    color: var(--clr-primary);
+
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 400px;
+    row-gap: 16px;
+}
+
+input {
+
+    flex-direction: column;
+    padding: 8px 4px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 100%
+}
+
+input[type="checkbox"] {
+    width: unset;
+}
+
+button[type="submit"] {
+    height: 40px;
+    min-width: 400px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--clr-dark);
+    color: var(--clr-primary);
+    align-self: flex-start;
+}
+
+/* lists*/
+
+ol {
+    list-style: decimal-leading-zero;
+    margin: 24px;
+}

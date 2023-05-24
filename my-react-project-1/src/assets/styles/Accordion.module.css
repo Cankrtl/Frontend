@@ -1,0 +1,20 @@
+.Accordion{
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.Accordion> li{
+    border: 2px dotted gray;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.Accordion> li> h2{
+    font-weight: 700;
+}
+
+.Accordion> li> p{
+    font-size: 14px;
+    margin-top: 8px;
+}

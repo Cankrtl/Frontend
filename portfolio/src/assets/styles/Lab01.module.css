@@ -1,0 +1,18 @@
+.Lab01{
+    border:1px dotted red;
+    height:300px;
+    background-color: black;
+    position:relative;
+}
+
+
+.Lab01 span{
+    position:absolute;
+    top:0;
+    left:0;
+    display:"inline-block"; 
+    width: 20px;
+     height: 20px;
+      background-color: red; 
+      border-radius:50%; 
+}
