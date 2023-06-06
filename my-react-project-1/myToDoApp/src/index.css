@@ -1,0 +1,28 @@
+.frm-add {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid lightgrey;
+  padding: 24px;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+input[type=text] {
+  height: 40px;
+  font-size: 24px;
+}
+
+button[type=submit] {
+  height: 46px;
+  font-size: large;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+}
+
+
+.todo-app {
+  max-width: 500px;
+  margin: auto;
+}

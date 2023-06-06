@@ -1,0 +1,31 @@
+.BtnToggle{
+    display:flex;
+    width:40px;
+    height: 24px;
+    border:2px solid gray;
+    padding:0;
+    border-radius: 16px;
+    cursor:pointer;
+    }
+    
+    .BtnToggleActive{
+    
+    justify-content: flex-end;
+    }
+    
+    
+    
+    
+    .BtnToggle span{
+         width:20px;
+         height:20px;
+         border-radius: 50%;
+         background-color: gray;
+         opacity:0.3;
+    }
+    
+    .BtnToggleActive span{
+    
+        background-color: rgb(0, 255, 0);
+        opacity: 1;
+     }

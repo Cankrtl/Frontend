@@ -1,0 +1,16 @@
+.Card{
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+
+@media screen  and (min-width:700px){
+    .Card{
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+
+        
+    }
+}
